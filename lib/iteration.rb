@@ -53,7 +53,7 @@ def total_even_pairs(src)
        inner_array << src[row_index][0]
        inner_array << src[row_index][1]
        total_num += src[row_index][0]
-       total_num =+ src[row_index][1]
+       total_num += src[row_index][1]
       end 
     end
     
