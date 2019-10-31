@@ -46,14 +46,16 @@ def total_even_pairs(src)
   
   inner_array = []
   row_index = 0 
-  
+  total_num = 0 
   while row_index < src.count do 
     if src[row_index][0] % 2 === 0
       if src[row_index][1] % 2 === 0 
        inner_array << src[row_index][0]
        inner_array << src[row_index][1]
+       total_num = total_num + 
       end 
     end
+    
     row_index += 1 
   end 
   inner_array
